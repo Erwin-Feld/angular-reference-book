@@ -11,6 +11,7 @@ import { ParentBiComponent } from './components/communication/parent-bi/parent-b
 import { ChildBiComponent } from './components/communication/child-bi/child-bi.component';
 import { MakeTextRedDirective } from './make-text-red.directive';
 import { DisplayRequestsComponent } from './components/displayRequests/display-requests/display-requests.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { DisplayRequestsComponent } from './components/displayRequests/display-r
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

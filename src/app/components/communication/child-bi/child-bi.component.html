@@ -1,1 +1,4 @@
-<p>child-bi works!</p>
+<p>child-bi works! <span>{{valueFromInput}}</span> </p>
+
+<input [(ngModel)]="valueFromInput" (input)="transmitInputValue()">
+

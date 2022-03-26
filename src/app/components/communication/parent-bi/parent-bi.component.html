@@ -1,1 +1,6 @@
-<p>parent-bi works!</p>
+<div class="parent-bi">
+  <p>
+    parent-bi works! <span>{{ initData }}</span>
+  </p>
+  <app-child-bi (valueOut)="receaveNotice($event)"></app-child-bi>
+</div>

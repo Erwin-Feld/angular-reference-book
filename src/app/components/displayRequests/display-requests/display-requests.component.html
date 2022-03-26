@@ -1,5 +1,7 @@
-<p>display-requests works!</p>
+<div class="display-request">
+
 
 <!-- <p>{{ (requestData | async)?.userId }}</p> -->
 
-<p>{{ (requestData$ | async)?.userId }}</p>
+<p>displays http request: <span appMakeTextRed>{{ (requestData$ | async)?.userId }}</span></p>
+</div>

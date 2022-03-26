@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentBiComponent implements OnInit {
 
+  initData = "hello";
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  receaveNotice(notice: string){
+    console.log(notice)
+    this.initData = notice
   }
 
 }
