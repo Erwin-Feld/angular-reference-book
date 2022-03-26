@@ -1,5 +1,14 @@
 # AngularReferenceBook
 
+http Req-->service --> async pipe 
+
+directive
+
+
+
+https://www.freecodecamp.org/news/the-best-angular-examples/
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Development server
